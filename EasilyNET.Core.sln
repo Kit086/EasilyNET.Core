@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DA649A4-690
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasilyNET.Core", "src\EasilyNET.Core\EasilyNET.Core.csproj", "{35BBFB1A-02D4-461C-BF3C-78A70A0A912F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{49B3E058-1294-456B-BA8A-D2193809A374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasilyNET.Core.Tests.Unit", "tests\EasilyNET.Core.Tests.Unit\EasilyNET.Core.Tests.Unit.csproj", "{E2A761E0-EC83-4EA8-B5F1-E079D29C7895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{35BBFB1A-02D4-461C-BF3C-78A70A0A912F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35BBFB1A-02D4-461C-BF3C-78A70A0A912F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35BBFB1A-02D4-461C-BF3C-78A70A0A912F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A761E0-EC83-4EA8-B5F1-E079D29C7895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A761E0-EC83-4EA8-B5F1-E079D29C7895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A761E0-EC83-4EA8-B5F1-E079D29C7895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A761E0-EC83-4EA8-B5F1-E079D29C7895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{35BBFB1A-02D4-461C-BF3C-78A70A0A912F} = {9DA649A4-6909-47F5-8166-F53118336F94}
+		{E2A761E0-EC83-4EA8-B5F1-E079D29C7895} = {49B3E058-1294-456B-BA8A-D2193809A374}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9834B929-BBD2-4E5A-BAA7-1201716A233C}
